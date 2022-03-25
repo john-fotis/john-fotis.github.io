@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f5085b6.css",
+    "main.js": "/static/js/main.a73beb61.js",
+    "static/js/787.a5fa54f9.chunk.js": "/static/js/787.a5fa54f9.chunk.js",
+    "static/media/profilePhoto.jpg": "/static/media/profilePhoto.7316d315f23d200d6b02.jpg",
+    "static/media/android_studio_icon.png": "/static/media/android_studio_icon.f2e2df2c52a4d37fb141.png",
+    "static/media/gmail_icon.png": "/static/media/gmail_icon.98dbeb0a0b5c53fef182.png",
+    "static/media/docker_icon.png": "/static/media/docker_icon.1770f8bfee443c6a2504.png",
+    "static/media/linkedin_icon.png": "/static/media/linkedin_icon.4278c6d9389a947eb65e.png",
+    "static/media/puzzle_icon.png": "/static/media/puzzle_icon.da7d0e61301bd14a83f1.png",
+    "static/media/mysql_icon.png": "/static/media/mysql_icon.de2d7384c938957bc5f9.png",
+    "static/media/react_icon.png": "/static/media/react_icon.4526cfee2f4180584a36.png",
+    "static/media/ansible_icon.png": "/static/media/ansible_icon.0288a87b306b9358dce9.png",
+    "static/media/people_icon.png": "/static/media/people_icon.3e3ed69c55363a31c83b.png",
+    "static/media/android_text_icon.png": "/static/media/android_text_icon.418056db69c731414c10.png",
+    "static/media/git_icon.png": "/static/media/git_icon.e625eacb2901268b27ab.png",
+    "static/media/linux_text_icon.png": "/static/media/linux_text_icon.b4f9892d71c37ed8a07c.png",
+    "static/media/windows_text_icon.png": "/static/media/windows_text_icon.b141523f05dddb2da4cc.png",
+    "static/media/vs_code_icon.png": "/static/media/vs_code_icon.e9ef73afa61bf01dfb58.png",
+    "static/media/gradle_icon.png": "/static/media/gradle_icon.3e9d85a8091d766bc1fd.png",
+    "static/media/github_icon.png": "/static/media/github_icon.c76697ae58e9439a37d8.png",
+    "static/media/link_icon.png": "/static/media/link_icon.9181143df7c866567c94.png",
+    "index.html": "/index.html",
+    "main.9f5085b6.css.map": "/static/css/main.9f5085b6.css.map",
+    "main.a73beb61.js.map": "/static/js/main.a73beb61.js.map",
+    "787.a5fa54f9.chunk.js.map": "/static/js/787.a5fa54f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f5085b6.css",
+    "static/js/main.a73beb61.js"
+  ]
+}
