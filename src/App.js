@@ -46,10 +46,6 @@ function App() {
                   <span className='icon'><img src = {githubIcon} alt='github'/></span>
                   <span className='text'><a href = 'https://github.com/john-fotis'>github/john-fotis</a></span>
                 </li>
-                <li>
-                  <span className='icon'><img src = {phoneIcon} alt='phone'/></span>
-                  <span className='text'><a href = 'tel:+306933109725'>+30 693 310 9725</a></span>
-                </li>
               </ul>
             </div>
           </div>

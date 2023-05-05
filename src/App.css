@@ -93,18 +93,19 @@
 }
 .contact-info h3 {
   text-align: left;
-  font-size: 150%;
+  font-size: 180%;
   margin-left: 9%;
+  font-weight: bold;
 }
 .contact-info ul {
   list-style-type: none;
   font-weight: bold;
-  font-size: 130%;
+  font-size: 140%;
 }
 .contact-info li {
   align-items: center;
   margin-top: 5%;
-  padding: 2.5%;
+  padding: 4.5%;
   border: solid;
   border-width: 0.15rem;
   border-color: rgb(30, 110, 170);
