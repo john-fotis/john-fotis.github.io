@@ -98,11 +98,13 @@
 }
 .contact-info ul {
   list-style-type: none;
+  font-weight: bold;
+  font-size: 130%;
 }
 .contact-info li {
   align-items: center;
   margin-top: 5%;
-  padding: 2%;
+  padding: 2.5%;
   border: solid;
   border-width: 0.15rem;
   border-color: rgb(30, 110, 170);
@@ -300,6 +302,13 @@ li.chart-row span {
 .section-content .content-description {
   width: 100%;
   margin-bottom: 1.6%;
+}
+ul li .content-description {
+  list-style-position: inside;
+  margin-left: 2%;
+}
+.content-description a {
+  color: #1e6eaa;
 }
 
 .hobbies ul li {

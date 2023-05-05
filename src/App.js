@@ -4,20 +4,20 @@ import mailIcon from './_assets/images/gmail_icon.png';
 import linkedInIcon from './_assets/images/linkedin_icon.png';
 import githubIcon from './_assets/images/github_icon.png';
 import phoneIcon from './_assets/images/phone_icon.png';
-import linuxIcon from './_assets/images/linux_text_icon.png';
-import windowsIcon from './_assets/images/windows_text_icon.png';
+import ubuntuIcon from './_assets/images/ubuntu_text_icon.png';
+import windows11Icon from './_assets/images/windows_11_text_icon.png';
 import androidIcon from './_assets/images/android_text_icon.png';
 import gitIcon from './_assets/images/git_icon.png';
-import vsCodeIcon from './_assets/images/vs_code_icon.png';
-import mySQLIcon from './_assets/images/mysql_icon.png';
 import dockerIcon from './_assets/images/docker_icon.png';
-import reactIcon from './_assets/images/react_icon.png';
-import androidStudioIcon from './_assets/images/android_studio_icon.png';
-import virtualBoxIcon from './_assets/images/virtual_box_icon.png';
-import gradleIcon from './_assets/images/gradle_icon.png';
+import k8sIcon from './_assets/images/kubernetes_icon.png';
+import helmIcon from './_assets/images/helm_icon.png';
+import vsCodeIcon from './_assets/images/vs_code_icon.png';
+import postgreSQLIcon from './_assets/images/postgres_icon.png';
+import jenkinsIcon from './_assets/images/jenkins_icon.png';
+import grafanaIcon from './_assets/images/grafana_icon.png';
 import linkIcon from './_assets/images/link_icon.png';
 import puzzleIcon from './_assets/images/puzzle_icon.png';
-import gamepadIcon from './_assets/images/gamepad_icon.png';
+import diyIcon from './_assets/images/diy_tools_icon.png';
 import stocksIcon from './_assets/images/stocks_icon.png';
 
 function App() {
@@ -58,19 +58,19 @@ function App() {
             <h3>Programming Skills</h3>
             <ul>
               <li>
-                <span className='text'>C++, Java</span>
+                <span className='text'>Python, C++, Bash Scripting</span>
                 <span className='progress'><div style={{width:"80%"}}/></span>
               </li>
               <li>
-                <span className='text'>C, JavaScript</span>
+                <span className='text'>C, Java</span>
                 <span className='progress'><div style={{width:"60%"}}/></span>
               </li>
               <li>
-                <span className='text'>Bash Scripting, MATLAB, ASM</span>
+                <span className='text'>JavaScript, ASM</span>
                 <span className='progress'><div style={{width:"40%"}}/></span>
               </li>
                 <li>
-                <span className='text'>Python, PHP</span>
+                <span className='text'>SQL, MATLAB</span>
                 <span className='progress'><div style={{width:"20%"}}/></span>
               </li>
             </ul>
@@ -79,8 +79,8 @@ function App() {
           <div className='operating-systems'>
             <h3>Operating Systems</h3>
             <ul>
-              <li><img src = {linuxIcon} alt = 'linux'/></li>
-              <li><img src = {windowsIcon} alt = 'windows'/></li>
+              <li><img src = {ubuntuIcon} alt = 'ubuntu'/></li>
+              <li><img src = {windows11Icon} alt = 'windows'/></li>
               <li><img src = {androidIcon} alt = 'android'/></li>
             </ul>
           </div>
@@ -91,17 +91,17 @@ function App() {
               <li>
                 <ul>
                   <li><img src = {gitIcon} alt = 'git' /></li>
-                  <li><img src = {vsCodeIcon} alt = 'vscode' /></li>
-                  <li><img src = {mySQLIcon} alt = 'mysql' /></li>
+                  <li><img src = {k8sIcon} alt = 'kubernetes' /></li>
+                  <li><img src = {helmIcon} alt = 'helm' /></li>
                   <li><img src = {dockerIcon} alt = 'docker' /></li>
                 </ul>
               </li>
               <li>
                 <ul>
-                  <li><img src = {reactIcon} alt = 'react' /></li>
-                  <li><img src = {androidStudioIcon} alt = 'android studio' /></li>
-                  <li><img src = {virtualBoxIcon} alt = 'ansible' /></li>
-                  <li><img src = {gradleIcon} alt = 'gradle' /></li>
+                  <li><img src = {vsCodeIcon} alt = 'vscode' /></li>
+                  <li><img src = {postgreSQLIcon} alt = 'postgresql' /></li>
+                  <li><img src = {jenkinsIcon} alt = 'jenkins' /></li>
+                  <li><img src = {grafanaIcon} alt = 'grafana' /></li>
                 </ul>
               </li>
             </ul>
@@ -163,17 +163,46 @@ function App() {
         <div className='right-side'>
 
           <div className='section-title'>
+            <div className='text'><span style={{color: "#1e6eaa"}}>Exp</span>erience</div>
+            <div className='line'/>
+          </div>
+          <div className='section-content'>
+            <ul>
+              <li>
+                <div className='content-name'>
+                  <a href='https://www.upstreamsystems.com/start-at-upstream-devops/'>
+                    DevOps Engineer Intership at Upstream
+                    <img src = {linkIcon} alt = 'link'/>
+                    <span className='period'>2022-2023</span>
+                  </a>
+                </div>
+                <ul>
+                  <li>
+                    <div className='content-description'>Developed a Python automation tool for integrity checking of campaign draw results, saving an operational effort of 30 minutes of daily work time for our monitoring team.</div>
+                  </li>
+                  <li>
+                    <div className='content-description'>Led a migration project from <a href="https://www.tableau.com/">Tableau</a> to <a href="https://grafana.com/">Grafana</a>, using <a href="https://github.com/prometheus-community/postgres_exporter">Prometheus Postgres exporter</a> and <a href="https://helm.sh/">Helm</a>. Improved UI loading time from 4 minutes to 15 seconds and backend efficiency by over 75 times.</div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div className='section-title'>
             <div className='text'><span style={{color: "#1e6eaa"}}>Edu</span>cation</div>
             <div className='line'/>
           </div>
           <div className='section-content'>
             <div className='content-name'>
-              <a href='https://www.di.uoa.gr/en'>B.Sc in Informatics and Telecommunications
+              <a href='https://www.di.uoa.gr/en'>
+                B.Sc in Informatics and Telecommunications
+                <span className='period'>July 2022</span>
                 <img src = {linkIcon} alt = 'link'/>
-                <span className='period'>currently</span>
               </a>
             </div>
-            <div className='content-description'>National and Kapodistrian University of Athens, GR</div>
+            <div className='content-description'>National and Kapodistrian University of Athens, GR<br/>Thesis:&nbsp;
+              <a href="https://github.com/john-fotis/LoRa-LoRaWAN-Performance-Analysis">Performance analysis of LoRa / LoRaWAN communications</a>
+            </div>
           </div>
 
           <div className='section-title'>
@@ -184,7 +213,8 @@ function App() {
             <ul>
               <li>
                 <div className='content-name'>
-                  <a href='https://github.com/john-fotis/Civil-Protection'>Edge Computing in physical disaster forecasting
+                  <a href='https://github.com/john-fotis/Civil-Protection'>
+                    Edge Computing in physical disaster forecasting
                     <img src = {linkIcon} alt = 'link'/>
                     <span className='period'>2022</span>
                   </a>
@@ -193,7 +223,8 @@ function App() {
               </li>
               <li>
                 <div className='content-name'>
-                  <a href='https://github.com/john-fotis/Indoor-Path-Loss-Analysis'>Indoor Path Loss Analysis for wireless links
+                  <a href='https://github.com/john-fotis/Indoor-Path-Loss-Analysis'>
+                    Indoor Path Loss Analysis for wireless links
                     <img src = {linkIcon} alt = 'link'/>
                     <span className='period'>2021</span>
                   </a>
@@ -202,7 +233,8 @@ function App() {
               </li>
               <li>
                 <div className='content-name'>
-                  <a href='https://github.com/john-fotis/SysPro3'>Vaccination Monitor Web Server
+                  <a href='https://github.com/john-fotis/SysPro3'>
+                    Vaccination Monitor Web Server
                     <img src = {linkIcon} alt = 'link'/>
                     <span className='period'>2021</span>
                   </a>
@@ -211,7 +243,8 @@ function App() {
               </li>
               <li>
                 <div className='content-name'>
-                  <a href='https://github.com/john-fotis/OS2'>Memory Page Replacement Simulator
+                  <a href='https://github.com/john-fotis/OS2'>
+                    Memory Page Replacement Simulator
                     <img src = {linkIcon} alt = 'link'/>
                     <span className='period'>2020</span>
                   </a>
@@ -220,33 +253,13 @@ function App() {
               </li>
               <li>
                 <div className='content-name'>
-                  <a href='https://github.com/john-fotis/AirBnB-Clone'>Airbnb Clone Web-Application
+                  <a href='https://github.com/john-fotis/AirBnB-Clone'>
+                    Airbnb Clone Web-Application
                     <img src = {linkIcon} alt = 'link'/>
                     <span className='period'>2020</span>
                   </a>
                 </div>
                 <div className='content-description'>Developed the front-end part for a real-estate booking website using React and JSX.</div>
-              </li>
-            </ul>
-          </div>
-
-          <div className='section-title'>
-            <div className='text'><span style={{color: "#1e6eaa"}}>Cur</span>rently doing</div>
-            <div className='line'/>
-          </div>
-          <div className='section-content'>
-            <ul>
-              <li>
-                <div className='content-name'>
-                  <a href='https://www.thethingsnetwork.org/docs/lorawan/what-is-lorawan/'>Working on my Thesis
-                    <img src = {linkIcon} alt = 'link'/>
-                  </a>
-                </div>
-              <div className='content-description'>In-depth analysis of range and performance matters in LPWAN Networks using LoRa and LoRaWAN technologies. The study includes a series of experiments to test out several scenarios and draw conclusions on this technology.</div>
-              </li>
-              <li>
-                <div className='content-name'>Expanding my knowledge on Build and Deploy tools</div>
-                <div div className='content-description'>Learning how to automate the deployment of my applications using Jenkins and Ansible.</div>
               </li>
             </ul>
           </div>
@@ -266,14 +279,14 @@ function App() {
               <li>
                 <ul className='hobbies-icons'>
                   <li><img src = {puzzleIcon} alt = 'puzzle'/></li>
-                  <li><img src = {gamepadIcon} alt = 'people'/></li>
+                  <li><img src = {diyIcon} alt = 'diy'/></li>
                   <li><img src = {stocksIcon} alt = 'stocks'/></li>
                 </ul>
               </li>
               <li>
                 <ul className='hobbies-description'>
                   <li>Jigsaw Puzzles</li>
-                  <li>Computer Games</li>
+                  <li>DIY Crafts</li>
                   <li>Investing</li>
                 </ul>
               </li>
