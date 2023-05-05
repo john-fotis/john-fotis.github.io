@@ -3,7 +3,6 @@ import profilePhoto from './_assets/images/profilePhoto.jpg';
 import mailIcon from './_assets/images/gmail_icon.png';
 import linkedInIcon from './_assets/images/linkedin_icon.png';
 import githubIcon from './_assets/images/github_icon.png';
-import phoneIcon from './_assets/images/phone_icon.png';
 import ubuntuIcon from './_assets/images/ubuntu_text_icon.png';
 import windows11Icon from './_assets/images/windows_11_text_icon.png';
 import androidIcon from './_assets/images/android_text_icon.png';
