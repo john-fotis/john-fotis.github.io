@@ -1,4 +1,4 @@
-FROM node:19
+FROM node:20
 ARG node_env=production
 ARG port=3000
 ENV NODE_ENV=${node_env}
