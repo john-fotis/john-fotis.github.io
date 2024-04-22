@@ -1,0 +1,17 @@
+[
+    {
+        "title": "DevOps Engineer at Fogus",
+        "link": "https://fogus.gr/",
+        "period": "2023-currently",
+        "descriptions": []
+    },
+    {
+        "title": "DevOps Engineer Internship at Upstream",
+        "link": "https://www.upstreamsystems.com/start-at-upstream-devops/",
+        "period": "2022-2023",
+        "descriptions": [
+            "Developed a Python automation tool for integrity checking of campaign draw results, saving an operational effort of 30 minutes of daily work time for our monitoring team.",
+            "Led a migration project from Tableau to Grafana, using Prometheus Postgres exporter and Helm. Improved UI loading time from 4 minutes to 15 seconds and backend efficiency by over 75 times."
+        ]
+    }
+]

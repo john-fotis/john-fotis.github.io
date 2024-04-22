@@ -1,0 +1,32 @@
+.hobbies ul li {
+  width: 100%;
+  text-align: center;
+}
+
+.hobbies ul img {
+  display: block;
+  margin: 5% auto;
+  height: 2.5rem;
+}
+
+.hobbies ul {
+  list-style-type: none;
+}
+
+.hobbies-icons,
+.hobbies-description {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 768px) {
+  .hobbies ul img {
+    height: 2rem;
+  }
+
+  .hobbies-icons,
+  .hobbies-description {
+    grid-template-columns: 1fr;
+  }
+}

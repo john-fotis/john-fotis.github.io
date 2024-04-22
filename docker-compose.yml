@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  node:
+    container_name: cv_ioannis_fotis
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - 3000:3000
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./src/:/home/node/app/src
+    healthcheck:
+      test: ["CMD", "curl", "-s", "localhost:3000"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s

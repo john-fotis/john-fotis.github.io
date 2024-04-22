@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Movie Recommender",
+        "link": "https://github.com/john-fotis/Movie-Recommender",
+        "year": "2023",
+        "description": "Written in Go, in order to address a substantial big data challenge with efficiency. It employs similarity metrics like Jaccard, Dice, Cosine, and Pearson to analyze user preferences. By utilizing user-user, item-item, tag-based, title-based, and hybrid recommendation strategies, it provides personalized movie suggestions."
+    },
+    {
+        "title": "Edge Computing in physical disaster forecasting",
+        "link": "https://github.com/john-fotis/Civil-Protection",
+        "year": "2022",
+        "description": "Developed a set of Android applications that work with a central server over MQTT in order to process IoT sensor data at an edge infrastructure. This analysis helps us to detect hazardous events and warn all civilians in the area."
+    },
+    {
+        "title": "Indoor Path Loss Analysis for wireless links",
+        "link": "https://github.com/john-fotis/Indoor-Path-Loss-Analysis",
+        "year": "2021",
+        "description": "Study & analysis of the COST-231 multiwall propagation model. The analysis is accomplished with MATLAB in order to illustrate the link's behavior and contribute to an optimal design of indoor Femtocell Networks."
+    },
+    {
+        "title": "Vaccination Monitor Web Server",
+        "link": "https://github.com/john-fotis/SysPro3",
+        "year": "2021",
+        "description": "C++ application that implements a traveling monitor system based on vaccination records. A hands-on practice in Systems' Programming, Sockets, Threads, Server-Client, and monitor-style programming."
+    }
+]

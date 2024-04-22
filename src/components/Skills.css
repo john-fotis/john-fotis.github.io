@@ -1,0 +1,186 @@
+.skills-section {
+  margin-top: auto;
+}
+
+.skills-section div h3 {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+/* Programming skills */
+.programming-skills {
+  position: relative;
+}
+
+.programming-skills ul {
+  list-style-type: none;
+}
+
+.programming-skills li {
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.programming-skills .progress {
+  position: relative;
+  width: 100%;
+  height: 1rem;
+  display: block;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.programming-skills .progress div {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgb(30, 110, 170);
+  border-radius: 5px;
+  animation: progressAnimation 1s ease-out forwards;
+}
+
+@keyframes progressAnimation {
+  from {
+    width: 0;
+  }
+}
+
+/* Operating Systems */
+.operating-systems {
+  position: relative;
+  max-width: 100%;
+}
+
+.operating-systems ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style-type: none;
+}
+
+.operating-systems ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2.2rem;
+}
+
+.operating-systems ul li {
+  align-items: center;
+}
+
+.operating-systems ul li img {
+  width: auto;
+  object-fit: contain;
+  max-height: 2.2rem;
+}
+
+/* Tools & technologies */
+.tools {
+  position: relative;
+}
+
+.tools ul {
+  list-style-type: none;
+}
+
+.tools ul li {
+  padding: 1%;
+}
+
+.tools ul li img {
+  width: auto;
+  object-fit: contain;
+  max-height: 2.7rem;
+  margin: 0 auto;
+}
+
+.tools ul li ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tools ul li ul li {
+  flex: 1;
+}
+
+/* Soft skills */
+.soft-skills ul {
+  list-style-type: none;
+}
+
+/* Languages */
+.languages {
+  width: 100%;
+}
+
+.languages h3 {
+  margin-bottom: 5%;
+}
+
+.languages ul {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 0.2fr 1fr 4fr;
+  list-style-type: none;
+}
+
+ul.language-list,
+ul.language-level {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.7rem;
+  list-style-type: none;
+}
+
+.vertical-line {
+  border-left: 0.3rem solid rgb(30, 110, 170);
+  height: 90%;
+  margin-right: 0.5rem;
+}
+
+li.language-level-chart {
+  position: relative;
+  margin-top: 0.2%;
+  width: 100%;
+}
+
+li.language-level-chart ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+li.chart-row span {
+  margin-left: 5%;
+  width: 20px;
+  height: 20px;
+}
+
+.chart-circle-empty {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.chart-circle-filled {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(30, 110, 170);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-section div {
+    margin-top: 5px;
+  }
+
+  .operating-systems ul li img,
+  .tools ul li img {
+    height: 1.5rem;
+  }
+}

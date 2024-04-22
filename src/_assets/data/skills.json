@@ -1,0 +1,121 @@
+{
+    "programmingSkills": [
+        {
+            "progLanguage": [
+                "Python",
+                "Bash Scripting",
+                "C++"
+            ],
+            "progress": 80
+        },
+        {
+            "progLanguage": [
+                "Go",
+                "C",
+                "Java"
+            ],
+            "progress": 60
+        },
+        {
+            "progLanguage": [
+                "JavaScript",
+                "ASM"
+            ],
+            "progress": 40
+        },
+        {
+            "progLanguage": [
+                "SQL",
+                "MATLAB"
+            ],
+            "progress": 20
+        }
+    ],
+    "operatingSystems": [
+        {
+            "name": "Ubuntu",
+            "icon": "ubuntu_text_icon.png",
+            "iconSize": 36
+        },
+        {
+            "name": "Windows 11",
+            "icon": "windows_11_text_icon.png",
+            "iconSize": 34
+        },
+        {
+            "name": "Android",
+            "icon": "android_text_icon.png",
+            "iconSize": 29
+        }
+    ],
+    "tools": [
+        [
+            {
+                "name": "Git",
+                "icon": "git_icon.png",
+                "iconSize": 35
+            },
+            {
+                "name": "Kubernetes",
+                "icon": "kubernetes_icon.png",
+                "iconSize": 34
+            },
+            {
+                "name": "Helm",
+                "icon": "helm_icon.png",
+                "iconSize": 34
+            },
+            {
+                "name": "Docker",
+                "icon": "docker_icon.png",
+                "iconSize": 29
+            }
+        ],
+        [
+            {
+                "name": "VS Code",
+                "icon": "vs_code_icon.png",
+                "iconSize": 34
+            },
+            {
+                "name": "PostgreSQL",
+                "icon": "postgres_icon.png",
+                "iconSize": 34
+            },
+            {
+                "name": "Jenkins",
+                "icon": "jenkins_icon.png",
+                "iconSize": 41
+            },
+            {
+                "name": "Grafana",
+                "icon": "grafana_icon.png",
+                "iconSize": 34
+            }
+        ]
+    ],
+    "softSkills": [
+        "Attention to detail",
+        "Analysis",
+        "Organization",
+        "Teamwork",
+        "Communication"
+    ],
+    "languages": [
+        {
+            "name": "Greek",
+            "level": "Native",
+            "chartLevel": 5
+        },
+        {
+            "name": "English",
+            "level": "C2",
+            "chartLevel": 5
+        },
+        {
+            "name": "German",
+            "level": "B2",
+            "chartLevel": 3
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": {
+        "firstName": "Ioannis",
+        "lastName": "Fotis"
+    },
+    "profilePhoto": "profilePhoto.jpg",
+    "contactInfo": [
+        {
+            "icon": "gmail_icon.png",
+            "iconSize": 10,
+            "text": "giannisfotis@gmail.com",
+            "link": "mailto:giannisfotis@gmail.com"
+        },
+        {
+            "icon": "linkedin_icon.png",
+            "iconSize": 15,
+            "text": "linked-in/john-fotis",
+            "link": "https://www.linkedin.com/in/john-fotis/"
+        },
+        {
+            "icon": "github_icon.png",
+            "iconSize": 16,
+            "text": "github/john-fotis",
+            "link": "https://github.com/john-fotis"
+        }
+    ]
+}

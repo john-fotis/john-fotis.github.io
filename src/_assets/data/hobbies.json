@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Jigsaw Puzzles",
+        "icon": "puzzle_icon.png"
+    },
+    {
+        "name": "DIY Crafts",
+        "icon": "diy_tools_icon.png"
+    },
+    {
+        "name": "Investing",
+        "icon": "stocks_icon.png"
+    }
+]

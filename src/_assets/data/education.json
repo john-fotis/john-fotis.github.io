@@ -1,0 +1,22 @@
+[
+    {
+        "curriculumUrl": "https://www.di.uoa.gr/eng",
+        "name": "M.Sc in Network Engineering",
+        "graduation": "currently",
+        "university": "National and Kapodistrian University of Athens, GR",
+        "thesis": {
+            "title": "",
+            "link": ""
+        }
+    },
+    {
+        "curriculumUrl": "https://www.di.uoa.gr/en",
+        "name": "B.Sc in Informatics and Telecommunications",
+        "graduation": "July 2022",
+        "university": "National and Kapodistrian University of Athens, GR",
+        "thesis": {
+            "title": "Performance analysis of LoRa / LoRaWAN communications",
+            "link": "https://github.com/john-fotis/LoRa-LoRaWAN-Performance-Analysis"
+        }
+    }
+]
