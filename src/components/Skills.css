@@ -174,9 +174,4 @@ li.chart-row span {
   .skills-section div {
     margin-top: 5px;
   }
-
-  .operating-systems ul li img,
-  .tools ul li img {
-    height: 1.5rem;
-  }
 }
