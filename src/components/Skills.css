@@ -170,7 +170,7 @@ li.chart-row span {
   display: inline-block;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .skills-section div {
     margin-top: 5px;
   }

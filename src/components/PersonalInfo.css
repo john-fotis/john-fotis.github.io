@@ -6,7 +6,6 @@
   position: relative;
   height: auto;
   width: 100%;
-  margin-bottom: 2rem;
 }
 
 .name {
@@ -19,7 +18,7 @@
 
 .profile-photo {
   position: absolute;
-  top: -28%;
+  top: -26%;
   right: -0.7%;
   width: 50%;
   max-width: 200px;
@@ -40,12 +39,11 @@
 
 .contact-info {
   position: relative;
-  width: 110%;
+  width: 111.5%;
   display: flex;
   flex-direction: column;
   padding: 20% 10% 6%;
-  margin-top: 2rem;
-  margin-left: -5%;
+  margin: 2rem -1.25rem 0rem;
   border: solid;
   border-color: rgb(30, 110, 170);
   border-radius: 0.4rem;
@@ -63,6 +61,8 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .contact-info li {
@@ -84,22 +84,16 @@
   margin-right: 0.8rem;
 }
 
-@media screen and (max-width: 768px) {
-  .personal-info {
-    margin-bottom: 0rem;
-  }
-
+@media screen and (max-width: 950px) {
   .contact-info {
-    margin-top: 0rem;
+    margin: 0rem -1.22rem 0rem;
     padding: 6% 5%;
   }
 
   .profile-photo {
-    top: -22%;
-    right: -0.8%;
+    top: -21%;
+    right: -0.85%;
     width: 35%;
     max-width: 160px;
-    height: auto; 
-    z-index: 9;
   }
 }

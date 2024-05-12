@@ -6,9 +6,13 @@
   font-family: "Poppins", sans-serif;
 }
 
-.App {
+html,
+body {
   background-image: url(./_assets/images/background.png);
   background-color: #ccc;
+}
+
+.App {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +23,8 @@
   display: grid;
   grid-template-columns: 1fr 1.8fr;
   width: auto;
-  max-width: 100%;
+  max-width: 1080px;
+  overflow-x: auto;
   height: fit-content;
   margin: 2.5% auto;
   padding: 0.4%;
@@ -37,30 +42,31 @@
 .container .right-side {
   position: relative;
   display: grid;
+  width: 99.5%;
   padding: 5%;
   box-shadow: 0px 35px 55px 0px rgba(0, 0, 0, 0, 1);
   border-radius: 1.25rem;
 }
 
 .container .left-side {
+  min-width: 368px;
   grid-template-rows: 0.3fr 0.7fr;
-  width: 100%;
+  margin-right: 0.5%;
   background: rgba(150, 210, 255, 0.7);
   color: rgba(255, 255, 255, 1);
 }
 
 .container .right-side {
+  min-width: 450px;
   grid-template-rows: 0.25fr 0.15fr 0.4fr 0.1fr 0.2fr;
-  width: 99%;
   background: rgba(255, 255, 255, 1);
-  margin-left: 1%;
+  margin-left: 0.5%;
   color: rgba(150, 150, 150, 1);
 }
 
 .section-title {
   position: relative;
   width: 100%;
-  position: relative;
   display: inline-flex;
   margin-bottom: 0.3rem;
 }
@@ -142,23 +148,17 @@ ul li .content-description {
   color: #1e6eaa;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .container {
     grid-template-columns: 1fr 1.8fr;
-	overflow-x: auto;
   }
 
-  .container .left-side {
-	font-size: 0.9rem;
-	min-width: 368px;
-  }
-
+  .container .left-side,
   .container .right-side {
-	font-size: 0.8rem;
-	min-width: 450px;
+    font-size: 0.8rem;
   }
 
   .section-title .text {
-	font-size: 1.2rem;
+    font-size: 1.2rem;
   }
 }

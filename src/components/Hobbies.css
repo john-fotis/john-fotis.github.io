@@ -20,7 +20,7 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .hobbies ul img {
     height: 2rem;
   }
