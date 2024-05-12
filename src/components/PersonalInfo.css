@@ -85,7 +85,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .personal-info {
+    margin-bottom: 0rem;
+  }
+
   .contact-info {
+    margin-top: 0rem;
     padding: 6% 5%;
   }
 

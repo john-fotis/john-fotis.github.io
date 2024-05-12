@@ -38,7 +38,6 @@
   position: relative;
   display: grid;
   padding: 5%;
-  min-width: 368px;
   box-shadow: 0px 35px 55px 0px rgba(0, 0, 0, 0, 1);
   border-radius: 1.25rem;
 }
@@ -148,9 +147,17 @@ ul li .content-description {
     grid-template-columns: 1fr 1.8fr;
 	overflow-x: auto;
   }
+
+  .container .left-side {
+	font-size: 0.9rem;
+	min-width: 368px;
+  }
+
   .container .right-side {
 	font-size: 0.8rem;
+	min-width: 450px;
   }
+
   .section-title .text {
 	font-size: 1.2rem;
   }
