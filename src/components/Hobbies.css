@@ -24,9 +24,4 @@
   .hobbies ul img {
     height: 2rem;
   }
-
-  .hobbies-icons,
-  .hobbies-description {
-    grid-template-columns: 1fr;
-  }
 }

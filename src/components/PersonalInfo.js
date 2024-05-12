@@ -16,10 +16,10 @@ function PersonalInfoSection () {
                     <span>{name.lastName}</span>
                 </h3>
             </div>
-            <div className='profile-photo'>
-                <img src={profilePhotoSrc} alt='Profile' />
-            </div>
             <div className='contact-info'>
+                <div className='profile-photo'>
+                    <img src={profilePhotoSrc} alt='Profile' />
+                </div>
                 <h3>Find me at:</h3>
                 <ul>
                     {contactInfo.map((contact, index) => (
