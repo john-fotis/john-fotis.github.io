@@ -3,8 +3,8 @@
 }
 
 .skills-section div h3 {
-  padding-top: 15px;
-  padding-bottom: 10px;
+  padding-top: 1rem;
+  padding-bottom: 0.7rem;
 }
 
 /* Programming skills */
@@ -112,10 +112,6 @@
 /* Languages */
 .languages {
   width: 100%;
-}
-
-.languages h3 {
-  margin-bottom: 5%;
 }
 
 .languages ul {

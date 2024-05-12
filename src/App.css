@@ -9,11 +9,9 @@
 .App {
   background-image: url(./_assets/images/background.png);
   background-color: #ccc;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 95%;
 }
 
 .container {
@@ -21,7 +19,6 @@
   display: grid;
   grid-template-columns: 1fr 1.8fr;
   width: auto;
-  min-width: 768px;
   max-width: 100%;
   height: fit-content;
   margin: 2.5% auto;
@@ -75,7 +72,6 @@
   display: block;
   width: fit-content;
   padding: 0% 3%;
-  font-size: 1.25rem;
   font-weight: bold;
   border: solid;
   border-width: 0.25rem;
@@ -150,5 +146,12 @@ ul li .content-description {
 @media screen and (max-width: 768px) {
   .container {
     grid-template-columns: 1fr 1.8fr;
+	overflow-x: auto;
+  }
+  .container .right-side {
+	font-size: 0.8rem;
+  }
+  .section-title .text {
+	font-size: 1.2rem;
   }
 }

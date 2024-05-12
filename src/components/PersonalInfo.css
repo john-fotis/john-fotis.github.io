@@ -88,4 +88,13 @@
   .contact-info {
     padding: 6% 5%;
   }
+
+  .profile-photo {
+    top: -22%;
+    right: -0.8%;
+    width: 35%;
+    max-width: 160px;
+    height: auto; 
+    z-index: 9;
+  }
 }
