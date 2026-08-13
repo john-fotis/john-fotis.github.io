@@ -1,0 +1,8 @@
+exec:
+  allow:
+    - ^(dart-)?sass(-embedded)?$
+    - ^go$
+    - ^git$
+    - ^node$
+    - ^postcss$
+    - ^tailwindcss$
