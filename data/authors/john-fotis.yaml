@@ -1,0 +1,147 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: John Fotis
+  given: John
+  family: Fotis
+postnominals: []
+status:
+  icon: "💡"
+role: DevOps Engineer
+email: giannisfotis@gmail.com
+bio: |
+  DevOps engineer building reliable web experiences, backend services, and automation workflows.
+  Passionate about open source, product craftsmanship, and scalable system design.
+
+affiliations:
+  - name: Open Source Contributor
+    url: https://github.com/john-fotis
+
+links:
+  - icon: at-symbol
+    url: mailto:giannisfotis@gmail.com
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/john-fotis
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/john-fotis/?locale=en-US
+  - icon: brands/x
+    url: https://x.com/giannisfotis3
+  - icon: brands/mastodon
+    url: https://mastodon.social/@johnfotis
+
+interests:
+  - Task Automation
+  - Internet of Things
+  - Wireless Networking
+  - Network Architecture
+  - Cyber Security
+  - PC hardware
+
+experience:
+  - role: Information Systems Consultant & IT Specialist
+    org: 96 High Military Command (Hellenic Armed Forces)
+    date_start: 2026-02-25
+    date_end: 2026-08-25
+    summary: |
+      * **Disaster Recovery Architecture:** Engineered a robust disaster recovery solution utilizing Veeam to automate critical backups from VMware ESXi directly to a highly-available TrueNAS storage backend.
+      * **Infrastructure & Security:** Administered and hardened a Windows Server infrastructure supporting 1,000+ personnel, enforcing strict military-grade data classification and security policies.
+      * **Network Operations:** Maintained and optimized the physical Local Area Network (LAN), providing Tier 1/2 helpdesk support and configuring routing switches and edge hardware for maximum uptime.
+  - role: DevOps Engineer
+    org: Fogus Innovations & Services P.C.
+    start: 2023-06-01
+    end: 2026-01-31
+    summary: |
+      * **Cloud-Native Infrastructure:** Architected and provisioned highly-available bare-metal and Proxmox VE virtualized clusters running Debian/Ubuntu, orchestrating containerized workloads via Docker and Kubernetes.
+      * **Configuration Management:** Engineered declarative CI/CD pipelines and automated infrastructure workflows using Bash, Python, and Ansible, drastically reducing manual release overhead and configuration drift.
+      * **Full-Stack Observability:** Implemented deep system telemetry using Prometheus and Grafana to proactively identify and resolve Layer 3/4 network bottlenecks and container runtime issues.
+  - role: DevOps Engineer Intern
+    org: Upstream S.A.
+    start: 2022-05-03
+    end: 2023-05-02
+    summary: |
+      * **Observability Migration:** Executed a complex observability migration from Tableau to Grafana, deploying the monitoring stack via Helm and integrating a Prometheus PostgreSQL exporter.
+      * **Performance Optimization:** Optimized database querying and monitoring dashboard performance, successfully reducing UI loading times from over 4 minutes down to just 15 seconds.
+      * **Operational Automation:** Developed a custom Python automation tool for the integrity checking of campaign draw results, eliminating manual toil and saving 30 minutes of daily operational overhead.
+
+education:
+  - degree: MSc in Computer, Telecommunications & Network Engineering
+    institution: National and Kapodistrian University of Athens
+    start: 2023-10-01
+    end: 2025-10-27
+    summary: |
+      Assessing the Energy and Resilience Trade-offs of Service Mesh Integration and DDoS Mitigation in a Cloud-Native 5G Environment.
+    button:
+      text: View Thesis
+      url: https://pergamos.lib.uoa.gr/item/uoadl:5311065
+      icon: brands/google-scholar
+  - degree: BSc in Informatics and Telecommunications
+    institution: National and Kapodistrian University of Athens
+    start: 2017-10-02
+    end: 2022-07-04
+    summary: |
+      Performance analysis of LoRa and LoRaWAN communications.
+    button:
+      text: View Thesis
+      url: https://github.com/john-fotis/LoRa-LoRaWAN-Performance-Analysis
+      icon: brands/github
+
+skills:
+  - name: Soft Skills
+    items:
+      - label: Problem-Solving
+        level: 5
+      - label: Clear Communication
+        level: 5
+      - label: Collaboration
+        level: 4
+      - label: Adaptability
+        level: 4
+      - label: Conflict Resolution
+        level: 4
+  - name: Infrastructure & DevOps
+    items:
+      - label: K8s & Containerization
+        level: 5
+      - label: Infrastructure as Code
+        level: 4
+      - label: Configuration Management
+        level: 3
+      - label: CI/CD
+        level: 3
+      - label: GitOps
+        level: 3
+  - name: Systems & Networking
+    items:
+      - label: Linux Administration
+        level: 5
+      - label: Virtualization
+        level: 5
+      - label: Network & Security
+        level: 4
+      - label: Observability
+        level: 4
+  - name: Programming
+    items:
+      - label: YAML
+        level: 5
+      - label: Bash
+        level: 5
+      - label: Python
+        level: 4
+      - label: Go
+        level: 3
+
+languages:
+  - name: Greek
+    level: 5
+    label: Native
+  - name: English
+    level: 5
+    label: Fluent
+  - name: German
+    level: 3
+    label: Intermediate
+
+awards: []
