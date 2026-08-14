@@ -15,7 +15,7 @@ sections:
       show_scroll_indicator: true
       typewriter:
         enable: true
-        prefix: "I build"
+        prefix: "I create"
         strings:
           - "automated infrastructures"
           - "cloud-native ecosystems"
