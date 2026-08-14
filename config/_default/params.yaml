@@ -106,7 +106,7 @@ hugoblox:
     style: minimal # minimal | columns | centered
     language_switcher: true
     # Custom footer text (HTML supported)
-    text: ""
+    text: '<a href="https://www.flaticon.com/free-icons/nucleus" title="Nucleus icons">Nucleus icons created by Magnific - Flaticon</a>'
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
